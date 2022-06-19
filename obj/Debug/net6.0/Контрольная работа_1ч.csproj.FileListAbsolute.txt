@@ -1,0 +1,15 @@
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\Контрольная работа_1ч.csproj.AssemblyReference.cache
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\Контрольная работа_1ч.GeneratedMSBuildEditorConfig.editorconfig
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\Контрольная работа_1ч.AssemblyInfoInputs.cache
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\Контрольная работа_1ч.AssemblyInfo.cs
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\Контрольная работа_1ч.csproj.CoreCompileInputs.cache
+W:\GB\ДЗ\Контрольная работа_1ч\bin\Debug\net6.0\Контрольная работа_1ч.exe
+W:\GB\ДЗ\Контрольная работа_1ч\bin\Debug\net6.0\Контрольная работа_1ч.deps.json
+W:\GB\ДЗ\Контрольная работа_1ч\bin\Debug\net6.0\Контрольная работа_1ч.runtimeconfig.json
+W:\GB\ДЗ\Контрольная работа_1ч\bin\Debug\net6.0\Контрольная работа_1ч.dll
+W:\GB\ДЗ\Контрольная работа_1ч\bin\Debug\net6.0\Контрольная работа_1ч.pdb
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\Контрольная работа_1ч.dll
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\refint\Контрольная работа_1ч.dll
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\Контрольная работа_1ч.pdb
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\Контрольная работа_1ч.genruntimeconfig.cache
+W:\GB\ДЗ\Контрольная работа_1ч\obj\Debug\net6.0\ref\Контрольная работа_1ч.dll
