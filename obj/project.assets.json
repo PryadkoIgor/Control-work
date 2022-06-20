@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\GarrYPotteR\\.nuget\\packages\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "W:\\GB\\ДЗ\\Контрольная работа_1ч\\Контрольная работа_1ч.csproj",
+      "projectUniqueName": "D:\\ДЗ\\Контрольная работа_1ч\\Контрольная работа_1ч.csproj",
       "projectName": "Контрольная работа_1ч",
-      "projectPath": "W:\\GB\\ДЗ\\Контрольная работа_1ч\\Контрольная работа_1ч.csproj",
-      "packagesPath": "C:\\Users\\GarrYPotteR\\.nuget\\packages\\",
-      "outputPath": "W:\\GB\\ДЗ\\Контрольная работа_1ч\\obj\\",
+      "projectPath": "D:\\ДЗ\\Контрольная работа_1ч\\Контрольная работа_1ч.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "D:\\ДЗ\\Контрольная работа_1ч\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\GarrYPotteR\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

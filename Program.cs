@@ -1,70 +1,26 @@
-﻿
-string? yesNo = "";
-while (yesNo.ToLower() != "yes" && yesNo.ToLower() != "no")
-{
-  Console.Write("Введите строки массива (yes/no): ");
-  yesNo = Console.ReadLine();
-}
-string[] arrayOnStrings = new string[] {};
+﻿Console.Clear();
 
-if (yesNo.ToLower() == "yes") {
-  int n = InputNumbers("Введите количество элементов массива: ");
-  arrayOnStrings = new string[n];
-  for (int i = 0; i < arrayOnStrings.Length; i++)
-  {
-    Console.Write($" Введите {i+1} строку: ");
-    arrayOnStrings[i] = Console.ReadLine();
-  }
-}
-else
+string[] array1 = new string[5] {"hello", "2", "world", ":)", "1234"};
+string[] array2 = new string[array1.Length];
+void SecondArrayIn(string[] array1, string[] array2)
 {
-    arrayOnStrings = new string[] {"hello", "2", "world", ":)"};
-}
-int lengthLimit = 3;
-
-int numbersItems = CheckArray(arrayOnStrings, lengthLimit);
-string[] newArrayOfStrings = new string[numbersItems];
-FillNewArray(arrayOnStrings, newArrayOfStrings, lengthLimit);
-Console.WriteLine($"{PrintArray(newArrayOfStrings)}");
-
-void FillNewArray(string[] oldArray, string[] newArray, int lengthLimit)
-{
-  int temp = 0;
-  for (int i = 0; i < oldArray.Length; i++)
-  {
-    if (oldArray[i].Length <= lengthLimit)
+    int count = 0;
+    for (int i = 0; i < array1.Length; i++)
     {
-      newArray[temp] = oldArray[i];
-      temp++;
+    if(array1[i].Length <= 3)
+        {
+        array2[count] = array1[i];
+        count++;
+        }
     }
-  }
 }
-int CheckArray(string[] array, int lengthLimit)
+void PrintArray(string[] array)
 {
-  int result = 0;
-  for (int i = 0; i < array.Length; i++)
-  {
-    if (array[i].Length <= lengthLimit) result++;
-  }
-  return result;
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+    Console.WriteLine();
 }
-
-string PrintArray(string[] array)
-{ 
-  string result = string.Empty;
-  result = "[ ";
-  for (int i = 0; i < array.Length; i++)
-  {
-    result += $"{array[i],1}";
-    if (i < array.Length - 1) result += ", ";
-  }
-  result += " ]";
-  return result;
-}
-
-int InputNumbers(string input)
-{
-  Console.Write(input);
-  int output = Convert.ToInt32(Console.ReadLine());
-  return output;
-}
+SecondArrayIn(array1, array2);
+PrintArray(array2);
